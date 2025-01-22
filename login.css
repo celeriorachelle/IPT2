@@ -1,8 +1,6 @@
 
 body {
     display: flex;
-    margin: 0;
-    padding: 0;
     font-family: 'Arial', sans-serif;
     background-color: #001a5c; 
     color: #fff; 
@@ -10,6 +8,7 @@ body {
     align-items: center;
     height: 100vh;
     flex-direction: column;
+    overflow-y: hidden;
 }
 
 header {
@@ -24,7 +23,7 @@ header {
 }
 
 header .nav-container {
-    margin: 0 10px 0 10px;
+    margin: 5px 10px 0 10px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -51,6 +50,7 @@ a {
 }
 
 header .nav-container h1 {
+    text-align: center;
     margin-left: 10px;
 }
 
@@ -145,6 +145,10 @@ input[type="text"] {
     cursor: pointer; 
     font-weight: bold; 
     box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.2); 
+}
+
+.submit-container button:hover {
+    color: #cf9801; 
 }
 
 .submit-container button:hover {

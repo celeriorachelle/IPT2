@@ -21,7 +21,7 @@ header {
 }
 
 header .nav-container {
-    margin: 0 10px 0 10px;
+    margin: 5px 10px 0 10px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -106,10 +106,16 @@ section {
 }
 
 .submit-container a {
+    text-transform: uppercase;
+    letter-spacing: 2px;
     color: #001a5c;
     font-weight: bold;
-    font-size: 14px;
+    font-size: 11px;
     text-decoration: none;
+}
+
+.submit-container a:hover {
+    color: #fcb900; 
 }
 
 .submit-container button {
